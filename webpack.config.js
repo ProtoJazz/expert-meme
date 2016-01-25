@@ -6,6 +6,7 @@ const PATHS = {
   app: path.join(__dirname, 'app'),
   build: path.join(__dirname, 'build')
 };
+process.env.BABEL_ENV = TARGET;
 var common = {
   // Entry accepts a path or an object of entries.
   // The build chapter contains an example of the latter.
